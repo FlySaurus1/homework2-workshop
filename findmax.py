@@ -11,6 +11,6 @@ for i in range(k):
     num = int(input("Введите число: "))
     list.append(num)
 
-print(f'Максимальное число: {max(list)}')
-stroka = ("Max number #" + str(filelen+1) + " - " + str(max(list)) + '\n')
+print(f'Максимальное число: {min(list)}')
+stroka = ("Min number #" + str(filelen+1) + " - " + str(min(list)) + '\n')
 file.writelines(stroka)
